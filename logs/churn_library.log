@@ -1,0 +1,27 @@
+root - INFO - test_import_data_1_wrong_type PASSED. 
+
+root - INFO - Importing data from: 123
+root - ERROR - File not found
+
+
+root - INFO - Importing data from: 
+root - ERROR - File not found
+
+
+root - INFO - Importing data from: 
+root - ERROR - File not found
+
+
+root - INFO - test_import_data_2_wrong_path PASSED. 
+
+root - INFO - Importing data from: ./data/bank_data_invalid.csv
+root - ERROR - Imported data can't be converted into shape
+
+
+root - INFO - test_import_data_3_file_with_invalid_data PASSED. 
+
+root - INFO - Importing data from: ./data/bank_data.csv
+root - INFO - Successfully imported data from ./data/bank_data.csv 
+
+root - INFO - test_import_data_4_file_with_valid_data PASSED. 
+

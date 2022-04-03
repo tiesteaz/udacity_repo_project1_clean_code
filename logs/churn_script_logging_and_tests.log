@@ -1,0 +1,133 @@
+root - INFO - Successfully saved EDA data at ./images/eda 
+
+root - INFO - test_1_eda_text_output PASSED. 
+
+root - INFO - Data encoding has been completed successfully.
+
+root - INFO - test_encoder_helper_01 PASSED. 
+
+root - INFO - Data encoding has been completed successfully.
+
+root - INFO - test_encoder_helper_02 PASSED. 
+
+root - ERROR - Columns of category_lst not found in dataframe: {'Nationality'}
+
+root - INFO - test_encoder_helper_03 PASSED. 
+
+root - ERROR - provided value of 'response' is not a list: just a string
+
+root - INFO - test_encoder_helper_04 PASSED. 
+
+root - ERROR - provided value of 'response' is not a list: 2
+
+root - INFO - test_encoder_helper_05 PASSED. 
+
+root - ERROR - Size of provided 'response' list                          doesn't match size of the 'category_lst'
+Size of the category_lst: 3
+Size of the response: 4
+
+
+root - INFO - test_encoder_helper_06 PASSED. 
+
+root - ERROR - provided value of 'response' is not a list: Just a string
+
+root - INFO - test_encoder_helper_07 PASSED. 
+
+root - ERROR - wrong type of 'response' input variable, it must be list
+
+root - INFO - test_encoder_helper_08 PASSED. 
+
+root - INFO - Data encoding has been completed successfully.
+
+root - INFO - test_encoder_helper_09 PASSED. 
+
+root - INFO - Data encoding has been completed successfully.
+
+root - INFO - test_encoder_helper_10 PASSED. 
+
+root - INFO - Importing data from: 123
+root - ERROR - Provided path value must be string
+
+root - INFO - Importing data from: 0
+root - ERROR - Provided path value must be string
+
+root - INFO - Importing data from: 12.3
+root - ERROR - Provided path value must be string
+
+root - INFO - Importing data from: -1
+root - ERROR - Provided path value must be string
+
+root - INFO - Importing data from: None
+root - ERROR - Provided path value must be string
+
+root - INFO - Importing data from: 2022-03-31
+root - ERROR - Provided path value must be string
+
+root - INFO - Importing data from: 123
+root - ERROR - File not found
+
+
+root - INFO - Importing data from: 
+root - ERROR - File not found
+
+
+root - INFO - Importing data from: 
+root - ERROR - File not found
+
+
+root - INFO - test_import_data_2_wrong_path PASSED. 
+
+root - INFO - Importing data from: ./data/bank_data_invalid.csv
+root - ERROR - Imported data can't be converted into shape
+
+
+root - INFO - test_import_data_3_file_with_invalid_data PASSED. 
+
+root - INFO - Importing data from: ./data/bank_data.csv
+root - INFO - Successfully imported data from ./data/bank_data.csv 
+
+root - INFO - test_import_data_4_file_with_valid_data PASSED. 
+
+root - ERROR - Provided input parameter 'd_frame' is not a pandas DataFrame
+
+
+root - INFO - test_perform_feature_engineering_1 PASSED. 
+
+root - ERROR - invalid keys
+
+root - INFO - test_perform_feature_engineering_2 PASSED. 
+
+root - INFO - Data encoding has been completed successfully.
+
+root - INFO - Feature engineering has been completed successfully.
+
+root - INFO - test_perform_feature_engineering_3 PASSED. 
+
+root - ERROR - Provided input parameter 'x_trn' is not a pandas DataFrame
+
+
+root - INFO - test_train_models_1 PASSED. 
+
+root - ERROR - Provided input parameter 'x_trn' is not a pandas DataFrame
+
+
+root - INFO - test_train_models_2 PASSED. 
+
+root - INFO - Data encoding has been completed successfully.
+
+root - INFO - Feature engineering has been completed successfully.
+
+root - INFO - test_train_models_3 PASSED. 
+
+root - INFO - Data encoding has been completed successfully.
+
+root - INFO - Feature engineering has been completed successfully.
+
+root - INFO - Saved classification report at ./images/results/classification_report.png.
+
+root - INFO - Saved feature importance report at ./images/results/feature_importance_plot.png
+
+root - INFO - Model training complete, see results at ./images/results/ 
+
+root - INFO - test_train_models_4 PASSED. 
+
